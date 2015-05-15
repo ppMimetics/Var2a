@@ -1,14 +1,14 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_right" id="333" x="292" y="37">
+  <block type="movement_right" id="363" x="73" y="206">
     <next>
-      <block type="robot_delay" id="335" inline="true">
+      <block type="robot_delay" id="371" inline="true">
         <value name="DELAY">
-          <block type="math_number" id="342">
-            <field name="NUM">4000</field>
+          <block type="math_number" id="378">
+            <field name="NUM">1000</field>
           </block>
         </value>
         <next>
-          <block type="movement_stop" id="353"></block>
+          <block type="movement_stop" id="388"></block>
         </next>
       </block>
     </next>
