@@ -2,32 +2,19 @@
   <block type="controls_whileUntil" id="657" inline="false" x="177" y="110">
     <field name="MODE">UNTIL</field>
     <value name="NUMBER">
-      <block type="sensor_button" id="664">
-        <field name="OBJECT">ENTER</field>
+      <block type="sensor_button" id="691">
+        <field name="OBJECT">UP</field>
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_forward" id="674">
+      <block type="movement_right" id="684">
         <next>
-          <block type="robot_delay" id="594" inline="true">
+          <block type="robot_delay" id="643" inline="true">
             <value name="DELAY">
-              <block type="math_number" id="601">
+              <block type="math_number" id="650">
                 <field name="NUM">500</field>
               </block>
             </value>
-            <next>
-              <block type="movement_right" id="684">
-                <next>
-                  <block type="robot_delay" id="643" inline="true">
-                    <value name="DELAY">
-                      <block type="math_number" id="650">
-                        <field name="NUM">500</field>
-                      </block>
-                    </value>
-                  </block>
-                </next>
-              </block>
-            </next>
           </block>
         </next>
       </block>
